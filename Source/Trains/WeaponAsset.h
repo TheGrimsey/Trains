@@ -43,4 +43,11 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly)
 	float Cooldown = 0.f;
+
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly)
+	class USkeletalMesh* GunMesh;
+
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly)
+	class UMaterial* GunMaterial;
+
 };
